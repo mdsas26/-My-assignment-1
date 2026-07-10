@@ -1,0 +1,39 @@
+/* Reset Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Style */
+.common-btn {
+    background-color: #1D4ED8;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar Style */
+.nav-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 40px;
+}
+
+.nav-parent ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Hero Section Style */
