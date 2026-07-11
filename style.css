@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Common Style */
 .common-btn {
     background-color: #1D4ED8;
@@ -16,6 +20,7 @@
     cursor: pointer;
 
 }
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -37,3 +42,45 @@
 }
 
 /* Hero Section Style */
+.hero {
+     background-image:
+    linear-gradient(to right,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0)
+    ),
+    url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div-1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    align-items: center;
+}
+
+.hero-div-1 button{
+    margin-top: 350px;
+    font-size: 22px;
+}
+
+.hero-div-1 h1{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-div-1 p {
+    max-width: 600px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
