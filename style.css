@@ -258,3 +258,35 @@ body {
 
 }
 
+/* Footer Section Style */
+
+.footer-parent {
+    background-color: #0F172A;
+    padding: 50px 0;
+}
+
+.footer-div-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social img {
+    width: 28px;
+}
+
+.footer-parent hr {
+    border: 1px solid #374151;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    text-align: center;
+    color: #9CA3AF;
+}
