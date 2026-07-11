@@ -8,7 +8,7 @@ img {
     max-width: 100%;
 }
 
-body{
+body {
     font-family: "Inter", sans-serif;
 }
 
@@ -58,13 +58,12 @@ body{
 
 /* Hero Section Style */
 .hero {
-     background-image:
-    linear-gradient(to right,
-        rgba(0,0,0,0.9),
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0)
-    ),
-    url("./assets/banner.jpg");
+    background-image:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0)),
+        url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,12 +83,12 @@ body{
     align-items: center;
 }
 
-.hero-div-1 button{
+.hero-div-1 button {
     margin-top: 350px;
     font-size: 22px;
 }
 
-.hero-div-1 h1{
+.hero-div-1 h1 {
     font-size: 60px;
 }
 
@@ -195,3 +194,67 @@ body{
     width: 100%;
     margin-top: 20px;
 }
+
+/* Ai Generate Section Style */
+
+.sponsor-parent {
+    padding: 80px 0;
+}
+
+.sponsor-parent h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sponsor-p1 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.sponsor-slider {
+    overflow: hidden;
+}
+
+.sponsor-track {
+
+    display: flex;
+    gap: 30px;
+
+    animation: scroll 20s linear infinite;
+}
+
+.sponsor-card {
+
+    min-width: 180px;
+    height: 100px;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+}
+
+.sponsor-card img {
+
+    width: 110px;
+
+}
+
+@keyframes scroll {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
