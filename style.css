@@ -286,7 +286,22 @@ body {
     margin-bottom: 25px;
 }
 
+.footer-div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .copyright {
-    text-align: center;
+    color: #9CA3AF;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    text-decoration: none;
     color: #9CA3AF;
 }
